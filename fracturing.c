@@ -29,9 +29,9 @@ int main(int argc, char **argv) {
 double calculateDistance() {
     double x1, y1, x2, y2;
     //User input
-    printf("Enter coordinates for Point #1 (x1 y1): /n");
+    printf("Enter coordinates for Point #1 (x1 y1): \n");
     scanf("%.1lf %.1lf", &x1, &y1);
-    printf("Enter coordinates for Point #2 (x2 y2): /n");
+    printf("Enter coordinates for Point #2 (x2 y2): \n");
     scanf("%.1lf %.1lf", &x2, &y2);
 
     //Output
@@ -64,9 +64,9 @@ double calculateWidth() {
     double x1, y1, x2, y2;
 
     //User input
-    printf("Enter coordinates for Point #1 (x1 y1): /n");
+    printf("Enter coordinates for Point #1 (x1 y1): \n");
     scanf("%.1lf %.1lf", &x1, &y1);
-    printf("Enter coordinates for Point #2 (x2 y2): /n");
+    printf("Enter coordinates for Point #2 (x2 y2): \n");
     scanf("%.1lf %.1lf", &x2, &y2);
 
     //Output
@@ -82,9 +82,9 @@ double calculateHeight() {
     double x1, y1, x2, y2;
 
     //User input
-    printf("Enter coordinates for Point #1 (x1 y1): /n");
+    printf("Enter coordinates for Point #1 (x1 y1): \n");
     scanf("%.1lf %.1lf", &x1, &y1);
-    printf("Enter coordinates for Point #2 (x2 y2): /n");
+    printf("Enter coordinates for Point #2 (x2 y2): \n");
     scanf("%.1lf %.1lf", &x2, &y2);
 
     //Output
