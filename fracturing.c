@@ -1,11 +1,12 @@
 //********************************************************
 // Fracturing Assignment 1
 // Author: Caleb Hess
+//UCF ID: 5529017
 // Date: 9/5/24
 // Class: COP 3223, Professor Parra
-// Purpose: 
-// Input: 
-// Output: 
+// Purpose: Use multiple functions to fracture the code
+// Input: x and y coordinates 
+// Output: distances, areas, and perimeters
 // //********************************************************
 #include <stdio.h>
 #include <math.h>
