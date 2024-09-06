@@ -71,9 +71,9 @@ double calculateWidth() {
 
     //Output
     double width = fabs(x2 - x1);
-    printf("Point #1 entered: x1 = %.1lf; y1 = %lf\n", x1, y1);
-    printf("Point #2 entered: x2 = %.1lf; y2 = %lf\n", x2, y2);
-    printf("The width of the city encompassed by your request is %lf\n", width);
+    printf("Point #1 entered: x1 = %.1lf; y1 = %.1lf\n", x1, y1);
+    printf("Point #2 entered: x2 = %.1lf; y2 = %.1lf\n", x2, y2);
+    printf("The width of the city encompassed by your request is %.1lf\n", width);
 
     return 2.5;
 }
