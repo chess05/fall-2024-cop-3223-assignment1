@@ -30,9 +30,9 @@ double calculateDistance() {
     double x1, y1, x2, y2;
     //User input
     printf("Enter coordinates for Point #1 (x1 y1): \n");
-    scanf("%.1lf %.1lf", &x1, &y1);
+    scanf("%lf %lf", &x1, &y1);
     printf("Enter coordinates for Point #2 (x2 y2): \n");
-    scanf("%.1lf %.1lf", &x2, &y2);
+    scanf("%lf %lf", &x2, &y2);
 
     //Output
     double distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
@@ -65,9 +65,9 @@ double calculateWidth() {
 
     //User input
     printf("Enter coordinates for Point #1 (x1 y1): \n");
-    scanf("%.1lf %.1lf", &x1, &y1);
+    scanf("%lf %lf", &x1, &y1);
     printf("Enter coordinates for Point #2 (x2 y2): \n");
-    scanf("%.1lf %.1lf", &x2, &y2);
+    scanf("%lf %lf", &x2, &y2);
 
     //Output
     double width = fabs(x2 - x1);
@@ -83,9 +83,9 @@ double calculateHeight() {
 
     //User input
     printf("Enter coordinates for Point #1 (x1 y1): \n");
-    scanf("%.1lf %.1lf", &x1, &y1);
+    scanf("%lf %lf", &x1, &y1);
     printf("Enter coordinates for Point #2 (x2 y2): \n");
-    scanf("%.1lf %.1lf", &x2, &y2);
+    scanf("%lf %lf", &x2, &y2);
 
     //Output
     double height = fabs(y2 - y1);
